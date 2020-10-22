@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{ 
+  
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    min-width: 960*640 px;
+    max-width: 1280*800 px;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.5;
+    background-color: #333;
+}
+*{
+    text-decoration: none;
+}
+.text-primary{
+    color: #93cb52;
+}
+#navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    background-color: rgb(51,51,51,0.4);
+    color:#fff;
+    justify-content: space-between;
+    padding: 1rem;
+    z-index: 1;
+}
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items:center;
+    
+}
+#navbar ul li a{
+    color: #fff;
+    margin: 0 0.25rem;
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background-color: #93cb52;
+    border-radius: 5px;
+}
+#showcase{
+    background: url(pictures/showcase.jpeg)  center center;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display flex;
+    flex-direction: column;
+   
+    text-align: center;
+    justify-content: center;
+   padding-top: 150px;
+    background-color: rgb(0,0,0,0.4);
+    position: absolute<
+        top:65px;
+    left:0 px;
+    right=0px;
+    bottom:o;
+    
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: .75rem;
+    line-height: 1.1;
+}
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display:inline-block;
+    color:#fff;
+ background-color: #93cb52;
+    padding:0.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    
+}
+.btn:hover{background-color:#7ab436 ;
+}
+#what{
+   background-color: #f4f4f4;
+    color:#333;
+    margin-top: 60px;
+    padding:.1 rem;
+    padding-bottom: 2rem;
+   
+}
+.text-center{
+    text-align: center;
+   margin: 0 0.25rem;
+  margin-bottom:  0.75rem;
+    font-size: 4rem;
+   
+}
+#what .container{
+    display: flex;
+    padding-top: 1rem;
+  text-align: center;
+    margin: auto;
+    
+    
+}
+#what .container .item{
+   
+    background-color: #93cb52;
+    border-radius: 50%;
+    padding:1rem;
+    text-align: center;
+  
+   
+}
+.article{
+  
+    text-align: cente;
+   padding-left: 50px;
+   padding-right: 50px;
+    font-size: 2rem;
+    
+    
+}
+#who{
+    background-color: #333;
+    display: flex;
+    color: #f4f4f4;
+
+}
+.who-image{
+    flex: 1;
+    background: url(pictures/team.jpeg) no-repeat center center/cover;
+    height: 400px;
+    
+}
+.who-text{
+    flex:1;
+   margin-left: 1rem;
+    margin-top: 2rem;
+   
+line-height: 1.7rem;
+}
+.who-text ul{
+    list-style: none;
+    padding-top: 1rem;
+}
+.who-text p{
+    padding-top: 1rem;
+}
+.who-text h3{
+    padding-top: 2rem;
+}
+.who-text li{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dotted #444;
+}
+.pi-1{
+    background-color: #fff;
+    color:#000;
+}
+   
+
+.m-heading{
+    padding: 1rem;
+    font-size: 30px;
+    font-style: bold;
+}
+.prosent{
+    position:static;
+     margin-left: 50rem
+    
+}
+.prosent-text{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 30px;
+     list-style: none;
+}
+.pi-2{
+    background-color: #444;
+    padding-bottom: 2rem;
+    padding-top:4rem;
+}
+#border{
+    width: 700px;
+   
+    background-color: #fff;
+    border: 2px solid #000;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    border-radius: 10%;
+     
+   
+}
+
+.contact{
+    background-color: #93cb52;
+   
+}
+#Our-adress{
+    color:#fff;
+  padding-bottom: 2rem;
+    padding-left: 4rem;
+}
+@media (max-width:763px){
+    #what .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+} 
